@@ -32,9 +32,14 @@ if(cities.length == 4){
     console.log(cities)
 }
 
+//Array and objects
+let cars = [
+    {name:"Ford", models:"Fiesta",color: "blue"},
+    {name:"BMW", models:"X3",color: "white"},
+    {name:"Merc", models:'A200',color: "black"}
+  ];
 
-
-
+console.log(cars[0].name,cars[2].models);
 
 
 
