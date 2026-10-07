@@ -41,5 +41,34 @@ let cars = [
 
 console.log(cars[0].name,cars[2].models);
 
+// functions
+
+function grocery(product,price,quantity){
+    return "the quantity is " + quantity + "  and the price is " + price;
+}
+let item= grocery("Rice", "20" , "3");
+console.log(item);
 
 
+let product = {name: "laptop", make: "HP", price: 1200, quantity: 2};
+function items(product){
+    return;
+// another way to do it:
+//return product.name + '\n' + product.make
+}
+
+console.log(product.make,product.price);
+ //console.log(items(product))
+
+let products = [
+    {name: "laptop", make: "HP", price: 1200, quantity: 2},
+    {name: "Desktop", make: "HP", price: 2200, quantity: 1},
+    {name: "laptop", make: "Dell", price: 1500, quantity: 3}
+
+]
+
+function hardware(products){
+    return products[0].make + " " + products[2].price
+}
+
+console.log(hardware(products))
