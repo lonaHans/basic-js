@@ -72,3 +72,19 @@ function hardware(products){
 }
 
 console.log(hardware(products))
+
+const customer ={
+    name:'Lona',
+    amount: 500,
+
+     productss : [
+         {keyboard : 150},
+         {mouse: 90},
+         {cable: 50 }
+     ]
+}
+
+function cart(customer){
+    return customer.amount- customer.productss[0].keyboard
+}
+console.log(cart(customer))
